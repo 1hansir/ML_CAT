@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Data files - exclude specific data files
+data/*.csv
+data/2b_Inferenced/*.csv
+data/parameters*.csv
+data/ML_data.csv
+data/validation_data.csv
+data/updated_*.csv
+data/sspmi_*.csv
+
+# Keep these files
+!data/inferenced/*.csv
+!results/*.png
+!results/experiment_results.csv
+!documents/*.pdf
+!documents/*.docx
+
+# CAT data
+CAT/*.csv
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
