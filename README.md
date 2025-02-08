@@ -11,10 +11,8 @@ This repository contains the implementation of a comparative study between our m
 │   ├── Preprocessing.py  # Data preprocessing utilities
 │   ├── SSPMI_emb.py     # SSPMI embedding generation
 │   └── run_experiments.py# Main experiment runner
-├── data/                 # Data directory
-│   ├── inferenced/      # Inference results
-│   └── 2b_Inferenced/   # Test data
-└── results/             # Experiment results and visualizations
+├── results/              # Experiment results and visualizations
+└── releases/            # Data and documentation files
 ```
 
 ## Features
@@ -24,6 +22,23 @@ This repository contains the implementation of a comparative study between our m
 - Various hidden dimensions (64, 128, 256)
 - Confidence-aware predictions
 - Comprehensive experiment tracking and visualization
+
+## Data Access
+
+Due to file size limitations, the data files and documentation are available through GitHub Releases:
+
+1. Download the required files from the [Releases page](https://github.com/1hansir/ML_CAT/releases)
+   - `data.zip`: Contains all data files including training, validation, and inference results
+   - `documents.zip`: Contains project documentation and related papers
+
+2. Extract the files to their respective directories:
+   ```bash
+   # Extract data files
+   unzip data.zip
+   
+   # Extract documentation
+   unzip documents.zip
+   ```
 
 ## Setup
 
