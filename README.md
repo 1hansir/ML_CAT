@@ -1,4 +1,4 @@
-# Machine-Learning CAT(Computerized Adaptive Learning)  -- Stanford CS229
+# ML-CAT(Computerized Adaptive Learning)  -- Stanford CS229
 
 This repository contains the implementation of a comparative study between our model and baseline CAT method, focusing on different hyperparameters and model architectures.
 
